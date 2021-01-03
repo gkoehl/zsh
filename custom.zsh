@@ -1,1 +1,1 @@
-# export SHELL_TEST="test"
+export SHELL_TEST="test"
