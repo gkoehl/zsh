@@ -1,0 +1,13 @@
+.DS_Store
+._*
+
+.idea
+.idea/*
+
+plugins/*
+!plugins/.gitkeep
+
+themes/*
+!themes/.gitkeep
+
+private.zsh
