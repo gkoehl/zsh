@@ -41,4 +41,4 @@ function source_if_exists() {
     source "${1}"
     return
 }
-source_if_exists "${FS_SCRIPTS_PATH}/private/init"
+source_if_exists "${FS_SCRIPTS_PATH}/shell/init"
