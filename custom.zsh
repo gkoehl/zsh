@@ -35,11 +35,10 @@ compinit
 # SOURCES
 function source_if_exists() {
     if [[ ! -f "${1}" ]]; then
-        echo "zsh: source_if_exists: ${1}: File does not exist"
         return
     fi
 
     source "${1}"
     return
 }
-# source_if_exists "${FS_SCRIPTS_PATH}/init"
+source_if_exists "${FS_SCRIPTS_PATH}/private/init"
