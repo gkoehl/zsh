@@ -11,3 +11,6 @@ themes/*
 !themes/.gitkeep
 
 private.zsh
+
+env.sh
+init.sh
