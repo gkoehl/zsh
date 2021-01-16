@@ -25,6 +25,7 @@ export PATH="${PATH}:${FS_BIN_PATH}"
 # SERVICES: AWS
 export AWS_PAGER=jq
 # SERVICES: ASDF
+. ${HOME}/.asdf/asdf.sh
 fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit
 compinit
