@@ -45,6 +45,8 @@ export AWS_PAGER=jq
 fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit
 compinit
+# SERVICES: GKS
+. ${HOME}/.gks/gks.sh
 
 ################################################################################
 # ALIASES
